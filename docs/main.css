@@ -10,6 +10,18 @@
   background-color: #c3a472 !important;
 }
 
+.bg-bananappeal {
+  background-image: url('images/bananappeal.co.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #FFDE59;
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .btn-banana {
   background-color: #FFDE59;
   border-color: #FFDE59;
