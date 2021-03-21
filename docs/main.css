@@ -46,6 +46,18 @@
   background-color: transparent;
 }
 
+/* https://stackoverflow.com/a/47517612 */
+@media (hover: none) {
+  .bg-bananappeal {
+    background-image: url('images/bananappeal.co.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FFDE59;
+    background-attachment: initial;
+    background-position: center;
+  }
+}
+
 .bg-bananappeal {
   background-image: url('images/bananappeal.co.svg');
   background-size: contain;
