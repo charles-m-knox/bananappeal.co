@@ -46,17 +46,6 @@
   background-color: transparent;
 }
 
-/* https://stackoverflow.com/a/47517612 */
-@media (hover: none) {
-  .bg-bananappeal {
-    background-image: url('images/bananappeal.co.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #FFDE59;
-    background-attachment: initial;
-    background-position: center;
-  }
-}
 
 .bg-bananappeal {
   background-image: url('images/bananappeal.co.svg');
@@ -65,6 +54,25 @@
   background-color: #FFDE59;
   background-attachment: fixed;
   background-position: center;
+}
+
+.logo-mobile-only {
+  display: none;
+}
+
+/* https://stackoverflow.com/a/47517612 */
+@media (pointer: coarse) {
+  .bg-bananappeal {
+    background-image: unset !important;
+    background-size: unset !important;
+    background-repeat: unset !important;
+    background-attachment: unset !important;
+    background-position: unset !important;
+  }
+
+  .logo-mobile-only {
+    display: block;
+  }
 }
 
 .bg-figurines {
