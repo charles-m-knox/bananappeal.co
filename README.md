@@ -1,9 +1,3 @@
 # bananappeal.co
 
-Work in progress.
-
-## aos library
-
-https://github.com/michalsnik/aos
-
-https://michalsnik.github.io/aos/ - demo
+A simple landing page for an online retailer. Not much info left here intentionally. You can read about it [here](https://charlesmknox.com/portfolio/fullstack/bananappealco/).
